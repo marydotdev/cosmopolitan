@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Whirly Birdie';
+    src: local('Whirly Birdie Variable'), local('WhirlyBirdieVariable'), url('/fonts/WhirlyBirdieVariable.ttf');
+  }
+
+  @font-face {
+    font-family: "Whirlybats";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/WhirlybatsVariable.ttf") format("truetype");
+  }
+
+  .wb-icon {
+    font-family: 'Whirlybats';
+    font-weight: normal;
+    font-style: normal;
+    /* display: inline-block; */
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @keyframes whirlyAnimate {
+    0% {
+    font-variation-settings: "anim" 100;
+    }
+
+    100% {
+    font-variation-settings: "anim" 200;
+    }
+  }
+
+  .wb-icon {
+    animation: whirlyAnimate 1s linear infinite;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
