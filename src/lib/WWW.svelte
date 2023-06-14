@@ -1,7 +1,7 @@
 <h1
 	class="pt-12 lg:pt-24 w-full text-4xl lg:text-6xl font-wb flex flex-col"
 >
-	<div class="www w-fit flex items-center group">
+	<div class="www w-fit flex items-center group cursor-pointer">
 		W
 		<span class="h-fit">
 			<svg
@@ -20,7 +20,7 @@
 		</span>
 		RLD
 	</div>
-	<div class="www w-fit flex items-center group">
+	<div class="www w-fit flex items-center group cursor-pointer">
 		W
 		<span class="h-fit">
 			<svg
@@ -42,7 +42,7 @@
 		</span>
 		DE
 	</div>
-	<div class="www w-fit flex items-center group">
+	<div class="www w-fit flex items-center group cursor-pointer">
 		WEB
 		<span class="h-fit">
 			<svg
