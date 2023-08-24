@@ -39,7 +39,7 @@
     }
   }
 
-  .wb-icon {
+  .wb-animate {
     animation: whirlyAnimate 1s linear infinite;
   }
 }

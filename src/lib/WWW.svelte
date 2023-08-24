@@ -1,5 +1,5 @@
 <h1
-	class="pt-12 lg:pt-24 w-full text-4xl lg:text-6xl font-wb flex flex-col"
+	class="pt-12 lg:pt-24 w-full text-4xl lg:text-7xl font-wb flex flex-col"
 >
 	<div class="www w-fit flex items-center group cursor-pointer">
 		W
@@ -60,10 +60,10 @@
 			</svg>
 		</span>
 	</div>
-	<div class="ml-auto ddd mt-12 lg:mt-24 flex flex-col text-2xl lg:text-4xl">
+	<div class="ddd mt-4 lg:mt-8 flex flex-col text-2xl lg:text-4xl">
 		<span>Design, </span>
     <span>Development, </span>
-    <span>Domination. </span>
+    <span>On Demand. </span>
 	</div>
 </h1>
 
